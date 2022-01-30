@@ -59,3 +59,7 @@ For more detail, see [`work/`](./work/). Note that they are written in Japanese.
 
 ### Parameters
 The parameters after learning were saved as [`model/obama_smalling_predictor.h5`](./model/).
+
+## Next step
+
+The repository [obama_smalling_flask](https://github.com/nishipy/obama_smalling_flask/blob/master/README.md) hosts the Flask app for Obama or Smalling Prediction.
