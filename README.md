@@ -1,4 +1,6 @@
 # Obama-Smaling Predictor
+[日本語版](./README_ja.md)
+
 ## Background
 Back in 2014, the Soccer World Cup was being held in Brazil. Of course, England, the mother country of football, participated in the tournament. 
 Chris Smalling, a popular defender of the Manchester United, was one of the members of the English team.
@@ -53,7 +55,7 @@ Non-trainable params: 0
 _________________________________________________________________
 ```
 
-For more detail, see [`work/`](./work/).
+For more detail, see [`work/`](./work/). Note that they are written in Japanese.
 
 ### Parameters
 The parameters after learning were saved as [`model/obama_smalling_predictor.h5`](./model/).
