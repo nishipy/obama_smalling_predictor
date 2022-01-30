@@ -1,22 +1,23 @@
-# オバマ/スモーリング判別器
-## 背景
-遡ること2014年、ブラジルでサッカーW杯が開催されていました。サッカーの母国イングランド代表チームも、もちろん出場しています。強豪マンチェスターユナイテッドでいじられキャラとして人気のDFクリス・スモーリング選手も、イングランド代表のメンバーの一人でした。
-W杯特需を狙ったお土産製造会社は、当然のようにこの人気者のグッズを製作しました。それがこちら。
+# Obama-Smaling Predictor
+## Background
+Back in 2014, the Soccer World Cup was being held in Brazil. Of course, England, the mother country of football, participated in the tournament. 
+Chris Smalling, a popular defender of the Manchester United, was one of the members of the English team.
 
-<img src="./Obama_or_Smalling.jpg">
+On the other hand, a company aiming to take advantage of the special demand for the World Cup naturally produced goods of this popular player. Here it is.
 
-https://www.soccer-king.jp/news/world/wc/20140624/204844.html
+[W杯おみやげ製造会社、スモーリングとオバマ大統領を間違えマグ2000個にプリント](https://www.soccer-king.jp/news/world/wc/20140624/204844.html)
 
-Google画像検索でスモーリング選手の検索し、それをプリントしたマグカップを商品化したようです。
-しかし、なぜか当時のアメリカ大統領であるバラク・オバマの写真を印刷してしまいました。
-この凡ミスは、当時日本のサッカーメディアでも多く取り上げられており、爆笑したのを覚えています。
+![](work/Obama_or_Smalling.jpg)
 
-## 概要
-このような悲劇は、二度と繰り返されてはなりません。
-私は強い使命感を覚え、スモーリング/オバマ判別器を実装することに決めたのでした。
+It seems that they googled image for Smalling and commercialized a mug with the photo printed on it.
+However, for some reason, they printed a picture of Barack Obama, the president of the United States at the time.
+This ordinary mistake was widely reported by the Japanese football media, and I remember laughing at it.
 
-### モデル
-kerasで構築した以下のモデルを、学習させています。
+Such a tragedy must never be repeated.
+I felt a strong sense of mission and decided to implement the Obama-Smalling Predictor.
+
+## Model
+I implemented the model by using Keras.
 ```
 model.summary()
 _________________________________________________________________
@@ -52,5 +53,7 @@ Non-trainable params: 0
 _________________________________________________________________
 ```
 
-### 学習後のパラメータ
-学習後のパラメータは`obama_smalling_predictor.h5`として保存しました。
+For more detail, see [`work/`](./work/).
+
+### Parameters
+The parameters after learning were saved as [`model/obama_smalling_predictor.h5`](./model/).
